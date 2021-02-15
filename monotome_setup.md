@@ -10,8 +10,9 @@ cd /srv/monotome/
 node monotome/bin/generate.js
 ```
 4. Make cron job running the script every minute and logging output
-
-`* * * * * /srv/monotome/wikipull.sh >> /srv/wikipull.log 2>&1`
+```
+ * * * * * /srv/monotome/wikipull.sh >> /srv/wikipull.log 2>&1
+```
 
 ## Optional
 
