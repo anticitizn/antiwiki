@@ -3,7 +3,6 @@
 1. Clone repository
 2. Create subfolder for wiki content and `git init`
 3. Make script for auto pulling and generating index:
-
 ```
 cd /srv/monotome/antiwiki/
 git pull origin master
@@ -17,7 +16,6 @@ node monotome/bin/generate.js
 ## Optional
 
 5. Make script for starting wiki
-
 ```
 cd /srv/monotome/
 python3 -m http.server 8900
