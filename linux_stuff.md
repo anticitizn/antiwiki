@@ -10,3 +10,8 @@ Start OpenVPN detached from terminal
 ```
 sudo -b openvpn filename.ovpn
 ```
+
+Check cron logs
+```
+grep CRON /var/log/syslog
+```
